@@ -179,8 +179,9 @@ docker-compose up
 ```
 Now, we have created NFS and after completing all those steps which we did in my [previous article](https://www.linkedin.com/pulse/cloud-automation-terraform-mohit-agarwal/) also. Now, we are ready to build the infrastructure.
 
-To see my terraform file, click [here](https://github.com/mohitagal98/hybrid-proj2/blob/master/terrafile.tf).
-To see my command.tpl file, click [here](https://github.com/mohitagal98/hybrid-proj2/blob/master/commands.tpl).
+To see my terraform file, click [here](terrafile.tf).
+
+To see my command.tpl file, click [here](commands.tpl).
 
 So, finally everything is done and we are remained with two magic commands only:
 
