@@ -3,7 +3,7 @@
 
 This article's purpose is as same as we saw in my previous article i.e. how Terraform can be used to create complete automated infrastructure. But in this article I am going to show the use of EFS(Elastic File System) instead of EBS(Elastic Bloack Store) which I used in my last article.
 
-Please read my previous article on cloud automation before going ahead, as in this article I had explained each and every steps on how to setup the complete infrastructure and why we are doing this.
+Please read my previous article on [cloud automation](https://www.linkedin.com/pulse/cloud-automation-terraform-mohit-agarwal/) before going ahead, as in this article I had explained each and every steps on how to setup the complete infrastructure and why we are doing this.
 
 ### What is EFS?
 
@@ -177,9 +177,10 @@ cp -f hybrid-proj1/docker-compose.yml /root/
 
 docker-compose up
 ```
-Now, we have created NFS and after completing all those steps which we did in my previous article also. Now, we are ready to build the infrastructure.
+Now, we have created NFS and after completing all those steps which we did in my [previous article](https://www.linkedin.com/pulse/cloud-automation-terraform-mohit-agarwal/) also. Now, we are ready to build the infrastructure.
 
-To see my terraform file, check my GitHub repo here.
+To see my terraform file, click [here](https://github.com/mohitagal98/hybrid-proj2/blob/master/terrafile.tf).
+To see my command.tpl file, click [here](https://github.com/mohitagal98/hybrid-proj2/blob/master/commands.tpl).
 
 So, finally everything is done and we are remained with two magic commands only:
 
